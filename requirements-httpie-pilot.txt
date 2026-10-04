@@ -1,0 +1,6 @@
+pytest==5.4.3
+pytest-httpbin==0.3.0
+mock==5.1.0
+requests==2.32.4
+Pygments==2.19.2
+setuptools==75.3.4

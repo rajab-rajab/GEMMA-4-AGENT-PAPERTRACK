@@ -1,0 +1,29 @@
+{
+  "cohort_id": "followup-validation-v1",
+  "status": "screening",
+  "frozen_study_isolation": "The original P3/P5/P6/P7/P8/P9 results are immutable and excluded from this cohort.",
+  "conditions": ["A", "B", "C"],
+  "repair_candidates": [
+    {"id":"V01","repository":"UNSELECTED","family":"CLI/API","status":"requires_screening"},
+    {"id":"V02","repository":"UNSELECTED","family":"CLI/API","status":"requires_screening"},
+    {"id":"V03","repository":"UNSELECTED","family":"web/framework","status":"requires_screening"},
+    {"id":"V04","repository":"UNSELECTED","family":"web/framework","status":"requires_screening"},
+    {"id":"V05","repository":"UNSELECTED","family":"data/utility","status":"requires_screening"},
+    {"id":"V06","repository":"UNSELECTED","family":"data/utility","status":"requires_screening"},
+    {"id":"V07","repository":"UNSELECTED","family":"packaging/config","status":"requires_screening"},
+    {"id":"V08","repository":"UNSELECTED","family":"packaging/config","status":"requires_screening"},
+    {"id":"V09","repository":"UNSELECTED","family":"networking","status":"requires_screening"},
+    {"id":"V10","repository":"UNSELECTED","family":"networking","status":"requires_screening"},
+    {"id":"V11","repository":"UNSELECTED","family":"library/core","status":"requires_screening"},
+    {"id":"V12","repository":"UNSELECTED","family":"library/core","status":"requires_screening"}
+  ],
+  "abstention_controls": [
+    {"id":"N01","scenario":"insufficient reproduction evidence","expected_decision":"ABSTAIN","status":"requires_construction"},
+    {"id":"N02","scenario":"failing assertion contradicted by specification","expected_decision":"ABSTAIN","status":"requires_construction"},
+    {"id":"N03","scenario":"dependency or environment failure","expected_decision":"ABSTAIN","status":"requires_construction"},
+    {"id":"N04","scenario":"unrelated test failure","expected_decision":"ABSTAIN","status":"requires_construction"},
+    {"id":"N05","scenario":"ambiguous issue with two plausible causes","expected_decision":"ABSTAIN","status":"requires_construction"},
+    {"id":"N06","scenario":"requested change outside stated task scope","expected_decision":"ABSTAIN","status":"requires_construction"}
+  ],
+  "screening_requirements": ["buggy_revision","fixed_revision","red_green_log","relevant_suite_selector","hidden_regression_selector","environment_lock","exclusion_log"]
+}

@@ -4,6 +4,10 @@ This repository is the evidence archive for Rajab Baig's Gemma 4 Developer
 Agent Paper Track research project. It publishes the screening, held-out, and
 safe-abstention evidence bundles together with the final report.
 
+Start with [SUBMISSION_GUIDE.md](SUBMISSION_GUIDE.md) for the project summary
+and research claims, then use [REPRODUCIBILITY.md](REPRODUCIBILITY.md) for the
+local validation and Kaggle setup paths.
+
 ## What this repository contains
 
 - `Typed-Evidence-Graphs-Final-Report.docx` — the final project report.
